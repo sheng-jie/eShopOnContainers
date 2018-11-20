@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Events.IntegrationEvent">
+    <Position X="1" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>QAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\IntegrationEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.eShopOnContainers.BuildingBlocks.EventBus.InMemoryEventBusSubscriptionsManager" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="0.5" Width="3" />
+    <NestedTypes>
+      <Class Name="Microsoft.eShopOnContainers.BuildingBlocks.EventBus.InMemoryEventBusSubscriptionsManager.SubscriptionInfo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>SubscriptionInfo.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ACBAgAAAAMAAEAgAAAEAQAAgEAAAAAAABYAAAgDggAA=</HashCode>
+      <FileName>InMemoryEventBusSubscriptionsManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Abstractions.IDynamicIntegrationEventHandler">
+    <Position X="1" Y="5.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstractions\IDynamicIntegrationEventHandler.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Abstractions.IEventBus">
+    <Position X="4.75" Y="4.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAACAAAAQAAAIAAgAAA=</HashCode>
+      <FileName>Abstractions\IEventBus.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Abstractions.IIntegrationEventHandler&lt;TIntegrationEvent&gt;">
+    <Position X="1" Y="3.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstractions\IIntegrationEventHandler.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Abstractions.IIntegrationEventHandler" Collapsed="true">
+    <Position X="1" Y="2.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstractions\IIntegrationEventHandler.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Microsoft.eShopOnContainers.BuildingBlocks.EventBus.IEventBusSubscriptionsManager">
+    <Position X="4.75" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>ACBAAAAAAAAAEAgAAAAAQAAgAAAAAAAABIAAAADAgAA=</HashCode>
+      <FileName>IEventBusSubscriptionsManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
